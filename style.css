@@ -1,0 +1,196 @@
+/* reset and general configs */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+img {
+    width: 100%;
+}
+
+/* end of reset and general config */
+
+
+
+/* card container */
+
+.card {
+    width: 16rem;
+    border-radius: 0.8rem;
+    padding: 1.2rem;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 1px 2px 15px hsla(216, 66%, 8%, 0.5);
+}
+
+/* end of card container */
+
+/* card img */
+
+.img-wrap {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.card-image {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.img-hovered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(178, 100%, 50%, 0.45);
+    opacity: 0;
+    display: grid;
+    place-items: center;
+    transition: 0.3s;
+}
+
+.img-hovered img {
+    width: 40px;
+}
+
+.img-wrap:hover .img-hovered {
+    opacity: 1;
+}
+
+/* end of card img */
+
+/* card info content */
+
+.card-title {
+    font-size: 1.1rem;
+    width: 100%;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+}
+
+.card-title a {
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    transition: 0.3s;
+}
+
+.card-title a:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+.card-description {
+    margin-bottom: 1rem;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.6;
+}
+
+.card-values, .card-price, .card-counting {
+    display: flex;
+    align-items: center;
+}
+
+.card-values {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.card-price .text, .card-counting .text {
+   font-size: 0.8rem;
+   font-weight: 300;
+   color: hsl(215, 51%, 70%);
+}
+
+.card-price .text {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.card-price img {
+    width: 10px;
+    margin-right: 0.4rem;
+} 
+
+.card-counting img {
+    width: 15px;
+    margin-right: 0.3rem;    
+}
+
+/* end of card info content */
+
+/* footer */
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+    position: relative;
+    padding: 0.8rem 0 0.2rem 0;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-footer img {
+    width: 26px;
+    margin-right: 0.6rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.card-footer .text {
+    font-size: 0.8rem;
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.card-footer .text a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.card-footer .text a:hover {
+    color:hsl(178, 100%, 50%);
+}
+/* end of footer */
+
+
+/* credits */
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 0.5rem;
+    color:hsla(215, 51%, 70%, 0.5);
+}
+
+.attribution a {
+    font-size: 0.5rem;
+    color:hsla(215, 51%, 70%, 1);
+    text-decoration: none;
+}
+
+/* end of credits */
