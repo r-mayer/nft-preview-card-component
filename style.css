@@ -27,7 +27,7 @@ img {
 /* card container */
 
 .card {
-    width: 16rem;
+    width: 350px;
     border-radius: 0.8rem;
     padding: 1.2rem;
     background-color: hsl(216, 50%, 16%);
@@ -45,7 +45,7 @@ img {
     border-radius: 0.5rem;
     overflow: hidden;
     position: relative;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
     cursor: pointer;
 }
 
@@ -83,7 +83,6 @@ img {
 /* card info content */
 
 .card-title {
-    font-size: 1.1rem;
     width: 100%;
     margin-bottom: 0.8rem;
     font-weight: 600;
@@ -91,6 +90,7 @@ img {
 
 .card-title a {
     text-decoration: none;
+    font-size: 1.3rem;
     color:hsl(0, 0%, 100%);
     transition: 0.3s;
 }
@@ -103,7 +103,7 @@ img {
     margin-bottom: 1rem;
     color: hsl(215, 51%, 70%);
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1.6;
 }
 
@@ -119,23 +119,23 @@ img {
 }
 
 .card-price .text, .card-counting .text {
-   font-size: 0.8rem;
+   font-size: 0.9rem;
    font-weight: 300;
    color: hsl(215, 51%, 70%);
 }
 
 .card-price .text {
     color: hsl(178, 100%, 50%);
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .card-price img {
-    width: 10px;
+    width: 12px;
     margin-right: 0.4rem;
 } 
 
 .card-counting img {
-    width: 15px;
+    width: 18px;
     margin-right: 0.3rem;    
 }
 
@@ -149,12 +149,13 @@ img {
     width: 100%;
     justify-content: flex-start;
     position: relative;
+    margin-bottom: 0.2rem;
     padding: 0.8rem 0 0.2rem 0;
     border-top: 1px solid hsl(215, 32%, 27%);
 }
 
 .card-footer img {
-    width: 26px;
+    width: 34px;
     margin-right: 0.6rem;
     border: 1px solid white;
     border-radius: 50%;
