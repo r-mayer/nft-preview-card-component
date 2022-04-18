@@ -22,4 +22,4 @@ To see it in your browser e experience the hover effect, I recommend visiting th
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://r-mayer.github.io/nft-preview-card-component/)
+- Live Site URL: [NFT Card Component by Rodrigo ](https://r-mayer.github.io/nft-preview-card-component/)
